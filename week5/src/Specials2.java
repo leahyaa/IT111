@@ -55,9 +55,11 @@ public class Specials2 {
         switch (number) {
             case 0: {
                 System.out.println("Looks like you don't like " + coffee + ", so sad!");
+                break;
             }
             case 1: {
                 System.out.println("Looks like you will be ordering only one " + coffee + " today!");
+                break;
             }
             default: {
                 System.out.print(number + " " + coffee + " have been ordered totalling $");

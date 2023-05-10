@@ -59,14 +59,17 @@ public class DailySpecials {
         switch (number) {
             case 0:{
                 System.out.println("Looks like you don't like " + coffee + ", so sad!");
+                break;
             }
             case 1:{
                 System.out.println("Looks like you will be ordering only one " + coffee + " today!");
+                break;
             }
             default:{
                 System.out.print(number + " " + coffee +" have been ordered totalling $");
                 System.out.printf("%.2f",money);
                 System.out.print(" dollars!");
+                break;
             }
         }
 
